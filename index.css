@@ -1,0 +1,102 @@
+body{
+    background-color: gray;
+    background-image: url(./store1.jfif);
+    background-size: cover;
+}
+.box1{
+    background-color: white;
+    color: #b60aa1;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 15px;
+    height: 150px;
+    width: 430px;
+    position: relative;
+    left: 400px;
+}
+.card{
+    display: inline-block;
+    border: 5px solid red;
+    border-radius: 15px;
+    height: 200px;
+    width: 160px;
+}
+.mainbox{
+    border: 5px solid green;
+    position: relative;
+}
+#crd{
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+#crd1{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    /* left: 0px; */
+}
+.fixed{
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 15px;
+    height: 65px;
+    width: 400px;
+    position: fixed;
+    left: 400px;
+    bottom: 50px;
+    z-index: 3;
+}
+#crd2{
+    background-color: white;
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+#crd3{
+    background-color: white;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    position: relative;
+    left: 220px;
+    border: 5px solid purple;
+    background-color: green;
+    width: 800px;
+    height: 600px;
+}
+.storeitems{
+    width: 398px;
+    display: inline-block;
+    background-color: bisque;
+    align-items: center;
+    text-align: center;
+}
+.otheritems{
+    height: 300px;
+    background-color: bisque;
+    align-items: center;
+    text-align: center;
+}
+img{
+    height: 150px;
+    margin: 10px;
+}
+input{
+    width: 100px;
+}
+#discount{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+}
